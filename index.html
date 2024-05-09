@@ -3,6 +3,8 @@
 
 <head>
   <link rel="stylesheet" type="text/css" href="style.css" />
+
+
 </head>
 
 <body>
@@ -133,7 +135,9 @@
     <br/>
     <br/>
     <br/>
-    <img src = "C:\Users\user\Documents\GitHub\319068789\qrCode.jpg" width=300 height=300></img><br><br>
+    <p>I would appreciate it if you would share the QR code so that more people will be exposed to the site easily</p>
+    <br/>
+    <img src = "https://github.com/WED-2023/319068789/blob/main/qrCode.jpg?raw=true" width=300 height=300></img><br><br>
 
   </section>
 
@@ -197,7 +201,7 @@
         <option value="😁">😁</option>
       </select><br><br>
 
-      <input type="submit" value="Send"></br></br>
+      <input type="submit" value="Send" onclick="sendEmail(); return false;"></br></br>
     </form>
   </section>
 
@@ -209,11 +213,31 @@
       $('html,body').scrollTo(this.hash,this.hash); 
     });
   });
+  
   </script>
   <script type="text/javascript">
   $(document).scroll(function() {
       $('#menu').toggle($(this).scrollTop()>1000)
   });​
+  </script>
+
+  <script type="text/javascript">
+    function sendEmail() {
+      var email = document.getElementById("email").value;
+      var message = document.getElementById("message").value;
+      var smiley = document.getElementById("smiley").value;
+
+      var subject = "Contact Form Submission";
+      var body = "Email: " + email + "%0D%0A" + "Message: " + message + "%0D%0A" + "Smiley: " + smiley;
+
+      var mailtoLink = "mailto:yehonatan280198@gmail.com" + 
+                      "?subject=" + encodeURIComponent(subject) + 
+                      "&body=" + encodeURIComponent(body);
+
+      window.open(mailtoLink);
+
+      return false;
+    }
   </script>
 
 </body>
