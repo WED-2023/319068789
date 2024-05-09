@@ -14,9 +14,27 @@
 
 .section{
 	text-align: center;
+	background: rgb(116, 161, 218);
 }
 
 .minTitle{
+	font-size: 40px;
 	font-weight: bold;
-	border-bottom: 6px solid red;
+	border-bottom: 4px solid white;
+}
+
+p{
+	font-size: 30px;
+}
+
+#mailForm label{
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#mailForm input[type="email"],
+#mailForm input[type="submit"],
+#mailForm textarea,
+#mailForm select{
+	font-size: 30px;
 }
