@@ -228,7 +228,7 @@
       var smiley = document.getElementById("smiley").value;
 
       var subject = "Contact Form Submission";
-      var body = "Email: " + email + "%0D%0A" + "Message: " + message + "%0D%0A" + "Smiley: " + smiley;
+      var body = message + smiley;
 
       var mailtoLink = "mailto:yehonatan280198@gmail.com" + 
                       "?subject=" + encodeURIComponent(subject) + 
