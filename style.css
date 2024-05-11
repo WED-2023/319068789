@@ -23,7 +23,7 @@
 	border-bottom: 4px solid white;
 }
 
-p{
+p,p2{
 	font-size: 30px;
 }
 
@@ -37,4 +37,19 @@ p{
 #mailForm textarea,
 #mailForm select{
 	font-size: 30px;
+}
+
+.ID {
+	width: 700px; 
+	margin: 0 auto; 
+	border-color: white; 
+	font-weight: bold;
+}
+
+.ID td {
+	font-size: 40px; 
+}
+
+h1{
+	font-size: 50px;
 }
