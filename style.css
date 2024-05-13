@@ -1,30 +1,62 @@
-#menu{
-	position: fixed;
-	width: 100%;
-	height: 30px;
-	background: rgb(81, 153, 241);
-	text-align: center;
-	padding-top: 10px;
-	color: white;
+#menu {
+    position: fixed;
+    width: 100%;
+    height: 30px;
+    background: rgb(9, 201, 25);
+    display: flex; /* Use flexbox */
+    justify-content: space-around; /* Distribute space evenly between links */
+    align-items: center; /* Center items vertically */
 }
 
 #menu a {
-	color: white;
+    color: white;
 }
+
+#menu a:hover {
+    color: #030701;
+}
+
 
 .section{
 	text-align: center;
-	background: rgb(116, 160, 218);
+	background: rgb(203, 234, 203);
 }
 
 .minTitle{
-	font-size: 40px;
+	color: rgb(3, 114, 12);
+	font-size: 30px;
 	font-weight: bold;
 	border-bottom: 4px solid white;
 }
 
+.ID {
+	width: 600px; 
+	margin: 0 auto; 
+	border-color: white; 
+	font-weight: bold;
+}
+
+.ID td {
+	font-size: 20px; 
+}
+
+.ID tr:nth-child(even) {
+	background-color: rgb(175, 236, 180);
+  }
+  
+
+.ID tr:nth-child(odd) {
+	background-color: rgb(69, 212, 81);
+}
+
+
+.ID tr:hover {
+	background-color: #dddddd;
+}
+
+
 p{
-	font-size: 30px;
+	font-size: 20px;
 }
 
 #mailForm label{
@@ -39,28 +71,46 @@ p{
 	font-size: 30px;
 }
 
-.ID {
-	width: 700px; 
-	margin: 0 auto; 
-	border-color: white; 
-	font-weight: bold;
-}
-
-.ID td {
-	font-size: 40px; 
-}
 
 h1{
-	font-size: 50px;
+	font-size: 30px;
+	margin-top: 50px;
+	text-decoration: underline;
+	color: rgb(48, 117, 54);
 }
 
-.info{
-	border-style: solid;
-	border-width: 3px;
-	border-color: white;
-	margin-top: 20px;
-	background-color: rgb(81, 153, 241);
+.info {
+    border: 2px solid rgb(79, 164, 86);
+	border-radius: 10%;
+    margin-left: 500px;
+	margin-right: 500px;
+	margin-top: 30px;
 }
-.info:hover{
-	background-color: orange
+
+.image {
+    border: 2px solid rgb(79, 164, 86);
+	border-radius: 20%;
+    margin-left: 600px;
+	margin-right: 600px;
+	margin-top: 30px;
 }
+
+
+.image img {
+	transition: transform 0.3s;
+}
+
+/* CSS for hover effect */
+.image img:hover {
+transform: scale(1.1);
+background-color: rgb(102, 168, 107);
+}
+
+.image {
+	background-color: rgb(205, 247, 205);
+}
+
+.image:hover {
+	background-color: rgb(175, 210, 175);
+}
+
