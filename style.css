@@ -14,7 +14,7 @@
 
 .section{
 	text-align: center;
-	background: rgb(116, 161, 218);
+	background: rgb(116, 160, 218);
 }
 
 .minTitle{
@@ -23,7 +23,7 @@
 	border-bottom: 4px solid white;
 }
 
-p,p2{
+p{
 	font-size: 30px;
 }
 
