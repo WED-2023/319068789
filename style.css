@@ -53,3 +53,14 @@ p,p2{
 h1{
 	font-size: 50px;
 }
+
+.info{
+	border-style: solid;
+	border-width: 3px;
+	border-color: white;
+	margin-top: 20px;
+	background-color: rgb(81, 153, 241);
+}
+.info:hover{
+	background-color: orange
+}
