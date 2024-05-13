@@ -1,11 +1,11 @@
 #menu {
-    position: fixed;
-    width: 100%;
-    height: 30px;
-    background: rgb(9, 201, 25);
-    display: flex; /* Use flexbox */
-    justify-content: space-around; /* Distribute space evenly between links */
-    align-items: center; /* Center items vertically */
+	position: fixed;
+	width: 100%;
+	height: 30px;
+	background: rgb(48, 186, 60);
+	display: flex; /* Use flexbox */
+	justify-content: space-around; /* Distribute space evenly between links */
+	align-items: center; /* Center items vertically */
 }
 
 #menu a {
@@ -14,6 +14,11 @@
 
 #menu a:hover {
     color: #030701;
+}
+
+#logo {
+	width: 30px;
+	height: 30px;
 }
 
 
@@ -114,3 +119,13 @@ background-color: rgb(102, 168, 107);
 	background-color: rgb(175, 210, 175);
 }
 
+.container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+.ans {
+	border: 2px solid rgb(79, 164, 86);
+	margin-top: 30px;
+	width: 30%;
+}
