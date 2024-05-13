@@ -120,7 +120,6 @@ h1{
 
 .containerContact {
 	background-image: url("https://github.com/WED-2023/319068789/blob/main/contactImage.jpg?raw=true");
-	background-repeat: no-repeat; /* Ensure the image is not repeated */
     background-size: cover; /* Ensure the image covers the entire container */
 	background-position: center;
 }
