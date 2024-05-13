@@ -89,25 +89,6 @@ h1{
 	width: 30%;
 }
 
-/*---------------------------------------------- Mail --------------------------------------------- */
-
-#mailForm label{
-	font-size: 15px;
-	font-weight: bold;
-}
-
-#mailForm input[type="email"],
-#mailForm input[type="submit"],
-#mailForm textarea,
-#mailForm select{
-	font-size: 15px;
-}
-
-.containerContact {
-	background-image: ;
-    display: flex;
-    justify-content: space-around;
-}
 
 /*---------------------------------------------- Photos --------------------------------------------- */
 
@@ -126,4 +107,20 @@ h1{
 	border: 2px solid rgb(79, 164, 86);
 	margin-top: 30px;
 	width: 30%;
+}
+
+/*---------------------------------------------- Mail --------------------------------------------- */
+
+#mailForm label{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+
+.containerContact {
+	background-image: url("https://github.com/WED-2023/319068789/blob/main/contactImage.jpg?raw=true");
+	background-repeat: no-repeat; /* Ensure the image is not repeated */
+    background-size: cover; /* Ensure the image covers the entire container */
+	background-position: center;
 }
