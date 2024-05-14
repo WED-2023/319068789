@@ -18,6 +18,9 @@ answers to questions about the web versions and a contact option.
 Used by the website to define the visual presentation and layout of its components. <br />
 It combines multiple colors, design principles and interactive features to enhance the user experience on the website.
 
+# images <br />
+Contains all the image files displayed on the site.
+
 
 
 
