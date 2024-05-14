@@ -14,7 +14,9 @@ Represents my grandfather's personal site. <br />
 It contains his background, hobbies, photos, a playlist, a Facebook like button, a QR code to share, <br />
 answers to questions about the web versions and a contact option.
 
-
+# style.css <br />
+Used by the website to define the visual presentation and layout of its components. <br />
+It combines multiple colors, design principles and interactive features to enhance the user experience on the website.
 
 
 
