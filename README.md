@@ -8,6 +8,7 @@ I decided to make a website about my grandfather Morris Meman.<br />
 - The website reviews about him from his childhood in Morocco until he immigrated to Israel.<br />
 - The website contains photos from different points in his life.<br />
 - The website contains an option to submit a review of the website.<br />
+- The website is designed according to design principles and interactive features to improve the user experience on the website.
 
 # index.html <br />
 Represents my grandfather's personal site. <br />
@@ -16,7 +17,7 @@ answers to questions about the web versions and a contact option.
 
 # style.css <br />
 Used by the website to define the visual presentation and layout of its components. <br />
-It combines multiple colors, design principles and interactive features to enhance the user experience on the website.
+It combines multiple colors, design principles and interactive features to improve the user experience on the website.
 
 # images <br />
 Contains all the image files displayed on the site.
