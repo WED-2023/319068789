@@ -1,6 +1,6 @@
 # A website about my grandfather <br /> <br />
 
-# My ID number: <br />
+<b> My ID number:<b> <br />
 319068789 <br /><br />
 
 # Link to the website: <br />
