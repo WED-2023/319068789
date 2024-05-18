@@ -12,8 +12,14 @@ I decided to make a website about my grandfather Moris Mamman.<br />
 
 # index.html <br />
 Represents my grandfather's personal site. <br />
-It contains his background, hobbies, photos, a playlist, a Facebook like button, a QR code to share, <br />
-answers to questions about the web versions and a contact option.
+It contains:<br />
+- About Me - My grandfather's ID, history and hobbies.<br />
+- My Photos - Pictures of my grandfather from his life for example from the army or in the USA.<br />
+- My playlist - A playlist my grandfather likes.<br />
+- Give Me Like - Facebook like button.<br />
+- Scan My Code - QR code to share, <br />
+- My Answers - Answers to questions about the web versions.<br />
+- Contact Me - Option to write a review on the site and send by email.<br />
 
 # style.css <br />
 Used by the website to define the visual presentation and layout of its components. <br />
