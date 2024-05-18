@@ -1,5 +1,6 @@
 /*---------------------------------------------- Menu --------------------------------------------- */
 
+/*Toolbar design*/
 #menu {
 	position: fixed;
 	width: 100%;
@@ -10,14 +11,17 @@
 	align-items: center;
 }
 
+/*Tab design*/
 #menu a {
     color: white;
 }
 
+/*Tab design*/
 #menu a:hover {
     color: #030701;
 }
 
+/*Logo design*/
 #logo {
 	width: 30px;
 	height: 25px;
@@ -25,6 +29,7 @@
 
 /*---------------------------------------------- General --------------------------------------------- */
 
+/*Partition design*/
 .minTitle{
 	color: rgb(3, 114, 12);
 	font-size: 30px;
@@ -43,6 +48,7 @@ p{
 	font-size: 15px;
 }
 
+
 h1{
 	font-size: 20px;
 	margin-top: 35px;
@@ -58,6 +64,7 @@ h1{
 
 /*---------------------------------------------- About Me --------------------------------------------- */
 
+/*ID table design*/
 .ID {
 	width: 25%; 
 	margin: 0 auto; 
@@ -65,24 +72,27 @@ h1{
 	font-weight: bold;
 }
 
+/*ID table rows design*/
 .ID td {
 	font-size: 15px; 
 }
 
+/*ID table rows design*/
 .ID tr:nth-child(even) {
 	background-color: rgb(175, 236, 180);
   }
   
-
+/*ID table rows design*/
 .ID tr:nth-child(odd) {
 	background-color: rgb(69, 212, 81);
 }
 
-
+/*ID table rows design*/
 .ID tr:hover {
 	background-color: #dddddd;
 }
 
+/*Design history and hobbies*/
 .info {
     border: 2px solid rgb(79, 164, 86);
 	margin-top: 30px;
@@ -92,10 +102,12 @@ h1{
 
 /*---------------------------------------------- Photos --------------------------------------------- */
 
+/*Time to return to normal size*/
 .image img {
 	transition: transform 0.3s;
 }
 
+/*Image enlargement*/
 .image img:hover {
 	transform: scale(1.5);
 }
@@ -103,6 +115,7 @@ h1{
 
 /*---------------------------------------------- Q&A --------------------------------------------- */
 
+/*Design Answers*/
 .ans {
 	border: 2px solid rgb(79, 164, 86);
 	margin-top: 30px;
@@ -111,13 +124,14 @@ h1{
 
 /*---------------------------------------------- Mail --------------------------------------------- */
 
+/*Design Label of mail-form*/
 #mailForm label{
 	font-size: 15px;
 	font-weight: bold;
 }
 
 
-
+/*Background image in Contact*/
 .containerContact {
 	background-image: url("https://github.com/WED-2023/319068789/blob/main/Images/contactImage.jpg?raw=true");
     background-size: cover; /* Ensure the image covers the entire container */
